@@ -93,10 +93,11 @@
             <dependency>
                 <groupId>org.codehaus.plexus</groupId>
                 <artifactId>plexus-utils</artifactId>
-                <version>3.0.24</version> <!-- Use the latest compatible version -->
+                <version>4.0.1</version> <!-- Use the latest compatible version -->
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
@@ -108,11 +109,6 @@
             <artifactId>configuration-as-code</artifactId>
             <version>${configuration-as-code-plugin.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>slack</artifactId>
-            <version>${slack.version}</version>
         </dependency>
         <dependency>
             <groupId>io.jenkins</groupId>
@@ -131,7 +127,7 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.0</version>
+            <version>3.14.0</version>
         </dependency>
     </dependencies>
 
